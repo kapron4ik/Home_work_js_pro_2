@@ -1,0 +1,28 @@
+body{
+  font-family: arial;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.wrap{
+  width: 100%;
+  min-height: 100vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+}
+.feed{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background: #fff;
+}
+
+.post__title{
+  font-size: 2rem;
+  font-weight: 800;
+}
